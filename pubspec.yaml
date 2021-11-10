@@ -1,0 +1,19 @@
+name: app_build
+description: A sample command-line application.
+version: 1.0.0
+
+environment:
+  sdk: '>=2.14.2 <3.0.0'
+
+
+executables:
+  app_build: app_build
+
+dependencies: 
+  cli_dialog: ^0.5.0
+  interact: ^2.1.1
+  process_run: ^0.12.2+1
+
+dev_dependencies:
+  lints: ^1.0.0
+  test: ^1.16.0
